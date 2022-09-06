@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>height, border, and backgrounds</title>
+
+    <style>
+        #firstPara {
+            background-color: aqua;
+            height: 100px;
+            width: 400px;
+            /* border-color: orange ;
+            border-style: solid;
+            border-width: 4px; */
+            border-radius: 20px;
+            border: 4px solid orange;
+        }
+
+        #secondPara {
+            background-color: aqua;
+            height: 100px;
+            width: 400px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-top: 4px solid red;
+        }
+
+        #thirdPara {
+            color: rgb(0, 0, 0);
+            height: 100px;
+            width: 320px;
+            background-image: url(https://grasshopper.app/assets/static/images/coding/Coding_OpenDoors.svg);
+            border: 2px solid black;
+            background-repeat: no-repeat; /* repeat y and repeat x is also possible*/
+            background-position: 200px top;
+            /* background-position: center top;  other options like left right top bottom are also there, first parameterr is y axis and 2nd parameter is x axis*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3> this is a heading</h3>
+    <p id="firstPara"><br> this is a paragraph</p>
+    <h3> this is another heading</h3>
+    <p id="secondPara"><br> this is my second paragraph</p>
+    <h3> this is another heading</h3>
+    <p id="thirdPara"><br> <strong> this is my second paragraph</strong></p>
+
+</body>
+
+</html>
